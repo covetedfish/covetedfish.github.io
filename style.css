@@ -27,6 +27,21 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.research {
+  background-color:#D0ADA7;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 h1 {
   line-height: 1.1;
   color: #685044;
@@ -39,7 +54,7 @@ h2 {
 green{
   line-height: 1;
   font-weight: bold;
-  color:#C5EBC3;
+  color:#F6DFE3;
 }
 purple{
   line-height: 1;
