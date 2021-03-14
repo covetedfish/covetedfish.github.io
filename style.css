@@ -8,16 +8,16 @@ body {
   font-family: "Arial";
   margin: 2em 1em;
   line-height: 1.5em;
-  background-color: #685044;
+  background-color: #718355;
 }
 
 .center {
   margin: auto;
   width: 80%;
   border: 3px solid;
-  border-color: #685044;
+  border-color: #585123;
   padding: 10px;
-  background-color: #EFD2CB;
+  background-color: #B1D19E;
   box-shadow: -10px 10px 5px #585123;
 
 }
@@ -81,7 +81,7 @@ green{
 purple{
   line-height: 1;
   font-weight: bold;
-  color:#B49FCC;
+  color:#585123;
 }
 
 footer {
