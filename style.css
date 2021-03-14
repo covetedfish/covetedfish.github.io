@@ -8,7 +8,7 @@ body {
   font-family: "Arial";
   margin: 2em 1em;
   line-height: 1.5em;
-  background-color: #718355;
+  background-color: #685044;
 }
 
 .center {
@@ -17,7 +17,7 @@ body {
   border: 3px solid;
   border-color: #685044;
   padding: 10px;
-  background-color:#cfe1b9;
+  background-color: #EFD2CB;
   box-shadow: -10px 10px 5px #585123;
 
 }
@@ -43,14 +43,29 @@ body {
   justify-content: center;
   flex-wrap: wrap;
 }
-a{
+
+a:link{
   color: #685044;
   text-decoration: none;
-  font-size: 50%
+  font-size: 30%;
 }
+a:visited{
+  color: #685044;
+  text-decoration: none;
+  font-size: 30%;
+}
+
+a:hover{
+  color: #585123;
+  text-decoration: none;
+  font-size: 30%;
+}
+
+
 h1 {
   text-indent:5%;
   line-height: 1.5;
+  font-size:50px;
   color: #685044;
 }
 h2 {
@@ -61,7 +76,7 @@ h2 {
 green{
   line-height: 1;
   font-weight: bold;
-  color:#F6DFE3;
+  color:#cfe1b9;
 }
 purple{
   line-height: 1;
