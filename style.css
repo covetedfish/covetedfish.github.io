@@ -27,22 +27,21 @@ body {
   flex-wrap: wrap;
 }
 
-
+.indent {
+  padding-left: 5%;
+}
 a:link {
-  text-indent: 50px;
   color: #685044;
   text-decoration: none;
   font-size: 30%;
 }
 a:visited {
-  text-indent: 50px;
   color: #685044;
   text-decoration: none;
   font-size: 30%;
 }
 
 a:hover {
-  text-indent: 5opx;
   color: #8B85C1;
   text-decoration: none;
   font-size: 30%;
@@ -50,18 +49,18 @@ a:hover {
 
 h1 {
   font-family: "Share Tech Mono", monospace;
-  text-indent: 5%;
+  padding-left: 5%;
   font-size: 50px;
   color: #685044;
   
 }
 
 project-header {
-  text-indent: 5%;
   font-family: "Share Tech Mono", monospace;
   font-size: 80px;
   font-weight: bold;
   color: #717568;
+  padding-bottom: 5px;
 }
 
 
