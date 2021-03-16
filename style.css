@@ -76,8 +76,11 @@ h2 {
   color: #717568
 }
 
-trees{
-  
+.trees {
+   width: 45px;
+   height: 45px;
+   border: 0px;
+  pa
 }
 green{
   line-height: 1;
