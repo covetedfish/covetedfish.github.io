@@ -27,18 +27,20 @@ body {
   flex-wrap: wrap;
 }
 
+
 .indent {
   padding-left: 5%;
-  padding-bottom: 5%
+  padding-bottom: 5%;
+  padding-right: 5%;
 }
 
 a.header:link {
-  color: #5FA8D3;
+  color: #685044;
   text-decoration: none;
   font-size: 30%;
 }
 a.header:visited {
-  color: #BC9CB0;
+  color: #685044;
   text-decoration: none;
 }
 a.header:hover {
@@ -48,12 +50,12 @@ a.header:hover {
 }
 
 a.text:link {
-  color: #685044;
+  color: #E56B6F;
   text-decoration: none;
 }
 
 a.text:visited {
-  color: #685044;
+  color: #E56B6F;
   text-decoration: none;
 }
 
