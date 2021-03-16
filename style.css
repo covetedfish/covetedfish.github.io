@@ -29,22 +29,39 @@ body {
 
 .indent {
   padding-left: 5%;
+  padding-bottom: 5%
 }
-a:link {
-  color: #685044;
+
+a.header:link {
+  color: #5FA8D3;
   text-decoration: none;
   font-size: 30%;
 }
-a:visited {
-  color: #685044;
+a.header:visited {
+  color: #BC9CB0;
+  text-decoration: none;
+}
+a.header:hover {
+  color: #8B85C1;
   text-decoration: none;
   font-size: 30%;
 }
 
-a:hover {
+a.text:link {
+  color: #685044;
+  text-decoration: none;
+}
+
+a.text:visited {
+  color: #685044;
+  text-decoration: none;
+}
+
+
+a.text:hover {
   color: #8B85C1;
   text-decoration: none;
-  font-size: 30%;
+  
 }
 
 h1 {
