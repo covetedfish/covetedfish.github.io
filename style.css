@@ -1,11 +1,11 @@
 /* this file is loaded by index.html and styles the page */
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Share Tech Mono', monospace;
+  font-family: "Share Tech Mono", monospace;
   margin: 2em 1em;
   line-height: 1.5em;
   background-color: #718355;
@@ -20,7 +20,6 @@ body {
   padding: 10px;
   background-color: #B1D19E;
   box-shadow: -10px 10px 5px #585123;
-
 }
 .container {
   display: flex;
@@ -30,7 +29,7 @@ body {
 }
 
 .research {
-  background-color:#D0ADA7;
+  background-color: #D0ADA7;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -38,61 +37,49 @@ body {
 }
 
 .about-me {
-  background-color:#cfe1b9;
+  background-color: #cfe1b9;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-a:link{
+a:link {
   color: #685044;
   text-decoration: none;
   font-size: 30%;
 }
-a:visited{
+a:visited {
   color: #685044;
   text-decoration: none;
   font-size: 30%;
 }
 
-a:hover{
+a:hover {
   color: #585123;
   text-decoration: none;
   font-size: 30%;
 }
 
-
 h1 {
-  font-family: 'Share Tech Mono', monospace;
-  text-indent:5%;
+  font-family: "Share Tech Mono", monospace;
+  text-indent: 5%;
   line-height: 1.5;
-  font-size:50px;
+  font-size: 50px;
   color: #685044;
 }
 h2 {
   line-height: 1;
   font-weight: bold;
-  color: #717568
+  color: #717568;
 }
 
 .trees {
-   width: 45px;
-   height: 45px;
-   border: 0px;
-  pa
+  width: 45px;
+  height: 45px;
+  border: 0px;
+  padding: 0px 0px 0px 10px;
 }
-green{
-  line-height: 1;
-  font-weight: bold;
-  color:#cfe1b9;
-}
-purple{
-  line-height: 1;
-  font-weight: bold;
-  color:#585123;
-}
-
 footer {
   margin-top: 3em;
   padding-top: 1.5em;
