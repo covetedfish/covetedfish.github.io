@@ -4,6 +4,23 @@
   box-sizing: border-box;
 }
 
+ .column {
+  float: center;
+}
+.left {
+  width: %;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 body {
   font-family: "Share Tech Mono", monospace;
   margin: 2em 1em;
