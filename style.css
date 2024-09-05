@@ -3,16 +3,18 @@
 * {
   box-sizing: border-box;
 }
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
 
- .column {
-  float: center;
 }
+
 .left {
-  width: %;
+  width: 30%;
 }
 
 .right {
-  width: 75%;
+  width: 70%;
 }
 
 /* Clear floats after the columns */
@@ -21,6 +23,7 @@
   display: table;
   clear: both;
 }
+
 body {
   font-family: "Share Tech Mono", monospace;
   margin: 2em 1em;
