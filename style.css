@@ -60,16 +60,19 @@ body {
 a.header:link {
   color: #685044;
   text-decoration: none;
-  font-size: 30%;
+  font-size: 50%;
 }
 a.header:visited {
   color: #685044;
   text-decoration: none;
+  font-size: 50%;
+
 }
 a.header:hover {
   color: #8b85c1;
   text-decoration: none;
-  font-size: 30%;
+  font-size: 50%;
+
 }
 
 a.text:link {
