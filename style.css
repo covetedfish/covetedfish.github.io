@@ -28,6 +28,20 @@ img {
   clear: both;
 }
 
+.vertical-center {
+  margin: auto;
+  width: 80%;
+  height: 80vh; /* or another fixed height */
+  border: 3px solid #585123;
+  background-color: #b1d19e;
+  box-shadow: -10px 10px 5px #585123;
+
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  text-align: center;      /* optional, center text inside */
+}
+
 body {
   font-family: "Share Tech Mono", monospace;
   margin: 2em 1em;
