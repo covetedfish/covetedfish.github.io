@@ -102,6 +102,31 @@ a.text:hover {
   text-decoration: none;
 }
 
+a.animal:link {
+  text-decoration: none;
+}
+a.animal:visited {
+  text-decoration: none;
+}
+a.animal:hover {
+  text-decoration: none;
+}
+
+a.forest-link:link {
+  text-decoration: none;
+  font-size: 70%;
+
+}
+a.forest-link:visited {
+  text-decoration: none;
+  font-size: 70%;
+
+}
+a.forest-link:hover {
+  text-decoration: none;
+  font-size: 150%;
+
+}
 h1 {
   font-family: "Share Tech Mono", monospace;
   font-size: 50px;
