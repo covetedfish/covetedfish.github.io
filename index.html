@@ -11,67 +11,6 @@
     <link id="favicon" rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>">
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css">
-    <style>
-      /* Bio: text and photo side by side, aligned at the top */
-      .row {
-        display: flex;
-        align-items: flex-start;
-        gap: 3em;
-      }
-      .row .column {
-        float: none;
-        width: auto;
-      }
-      .row .column.right {
-        flex: 1 1 auto;
-        max-width: 68ch;
-      }
-      .row .column.left {
-        flex: 0 0 300px;
-      }
-      .row .column.left img {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-      .row .indent > p:first-child {
-        margin-top: 0;
-      }
-      .links p {
-        margin: 0.6em 0;
-      }
-      .links {
-        margin-top: 1.2em;
-      }
-
-      /* Section headings: tighter, consistent spacing */
-      .section header {
-        height: auto;
-        margin: 0;
-        padding: 0;
-      }
-      .section h3 {
-        margin: 2em 0 0.5em;
-      }
-      .section ul {
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      .section .note {
-        margin-top: 0.5em;
-      }
-
-      @media (max-width: 760px) {
-        .row {
-          flex-direction: column-reverse;
-          gap: 1.5em;
-        }
-        .row .column.left {
-          flex-basis: auto;
-          max-width: 300px;
-        }
-      }
-    </style>
 
     <!-- import the webpage's client-side javascript file -->
     <script src="/script.js" defer></script>
@@ -102,9 +41,9 @@
         </header>
       </div>
 
-      <div class="row">
+      <div class="row indent">
         <div class="column right">
-          <div class="indent">
+          <div>
             <p>
               Hello! My name is Enora and I am a PhD candidate in Computer Science
               at CU Boulder, where I work in the
@@ -133,23 +72,19 @@
               Check out what I am
               <a href="https://app.thestorygraph.com/profile/covetedfish">currently reading</a>.
             </p>
-            <p>
-              <b>Publications:</b>
-              <a href="https://scholar.google.com/citations?user=0LZi52QAAAAJ">Google Scholar</a>
-            </p>
-            <p>
-              <b>More About Me:</b>
-              <a href="Enora_Rice_CV.pdf">Curriculum Vitae</a>
-            </p>
-            <p><b>Contact:</b> enora.rice at gmail.com</p>
           </div>
         </div>
         <div class="column left">
           <img src="bee_balm.jpg" alt="Enora holding a bouquet of bee balm" title="Enora holding a bouquet of foraged bee balm">
+          <div class="links">
+            <p><b>CV:</b> <a href="Enora_Rice_CV_2025.pdf">Curriculum Vitae</a></p>
+            <p><b>Publications:</b> <a href="https://scholar.google.com/citations?user=0LZi52QAAAAJ">Google Scholar</a></p>
+            <p><b>Contact:</b> enora.rice at gmail.com</p>
+          </div>
         </div>
       </div>
 
-      <div class="indent">
+      <div class="indent section">
         <header>
           <h3>Selected Publications</h3>
         </header>
@@ -182,10 +117,10 @@
             ACL 2024.
           </li>
         </ul>
-        <p><small>* Equal contribution</small></p>
+        <p class="note"><small>* Equal contribution</small></p>
       </div>
 
-      <div class="indent">
+      <div class="indent section">
         <header>
           <h3>Updates</h3>
         </header>
@@ -195,7 +130,7 @@
             <a href="https://2026.emnlp.org/">EMNLP 2026</a>
           </li>
           <li>
-            <b>06/07/26</b> Massively Multilingual Joint Segmentation and Glossing
+            <b>07/07/26</b> Massively Multilingual Joint Segmentation and Glossing
             received an Outstanding Paper Award at ACL 2026
           </li>
           <li>
