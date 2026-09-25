@@ -3,17 +3,25 @@
 * {
   box-sizing: border-box;
 }
-/* Create two unequal columns that floats next to each other */
-.column {
-  float: left;
-}
 
-.left {
-  width: 30%;
+/* Bio row: text and photo side by side, aligned at the top */
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 3em;
 }
 
 .right {
-  width: 70%;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.left {
+  flex: 0 0 30%;
+}
+
+.right p:first-child {
+  margin-top: 0;
 }
 
 img {
@@ -21,11 +29,20 @@ img {
   max-height: 75%;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.left img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  max-height: none;
+  height: auto;
+}
+
+.links {
+  margin-top: 1.2em;
+}
+
+.links p {
+  margin: 0.4em 0;
 }
 
 .vertical-center {
@@ -58,6 +75,7 @@ body {
   background-color: #b1d19e;
   box-shadow: -10px 10px 5px #585123;
 }
+
 .container {
   display: flex;
   flex-direction: row;
@@ -67,8 +85,21 @@ body {
 
 .indent {
   padding-left: 5%;
-  padding-bottom: 5%;
   padding-right: 5%;
+  padding-bottom: 2em;
+}
+
+/* Section headings (Selected Publications, Updates) */
+.section h3 {
+  margin: 0 0 0.5em;
+}
+
+.section ul {
+  margin: 0;
+}
+
+.section .note {
+  margin: 0.5em 0 0;
 }
 
 a.header:link {
@@ -115,18 +146,16 @@ a.animal:hover {
 a.forest-link:link {
   text-decoration: none;
   font-size: 70%;
-
 }
 a.forest-link:visited {
   text-decoration: none;
   font-size: 70%;
-
 }
 a.forest-link:hover {
   text-decoration: none;
   font-size: 150%;
-
 }
+
 h1 {
   font-family: "Share Tech Mono", monospace;
   font-size: 50px;
@@ -157,5 +186,21 @@ list-header {
 }
 
 .foot {
-  padding: 20%;
+  padding: 3em 1em;
+}
+
+/* Phones: stack the photo above the text */
+@media (max-width: 760px) {
+  .center {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column-reverse;
+    gap: 1.5em;
+  }
+  .left {
+    flex-basis: auto;
+    width: 100%;
+    max-width: 320px;
+  }
 }
